@@ -56,12 +56,12 @@ Command: pip install -r requirements.txt
 
 ## Multi-GPU Run train on MMIOC-1M
 
-python -m torch.distributed.run --nproc_per_node 4 --master_port 1 train.py  --data /data/GCD-Part-1.yaml --cfg /modles/IDFE-Net-Enhanced version.yaml --epochs 300 --img 640 --device 0,1,2,3
+./tools/dist_train.sh configs/pretrain/Closed.py --device cuda:0 --amp
 
 ## single-GPU Run train on MMIOC-1M
 
-bash dist_train.sh
+./tools/dist_train.sh configs/pretrain/Closed.py --device cuda:0,1,2 --amp
 
 ## Run val
 
-bash dist_test.sh
+bash dist_test.sh --device cuda:0,1,2
