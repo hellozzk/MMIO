@@ -43,7 +43,7 @@ Name_of_Dataset
 |-----|--------|--------|------ ...
 |-----|--------|--------|------ ...
 |--------|--------|------annotations
-|-----|--------|--------|------ train.json
+|-----|--------|--------|------ val.json
 ```
 
 ## Code
@@ -55,14 +55,14 @@ GPU: 8xNVIDIA A100-SXM4-40GB   CPU: Intel(R) Xeon(R) Platinum 8473C      Running
 Command: pip install -r requirements.txt
 
 
-## Multi-GPU Run train on MMIOC-1M
+## Run Pre-train on MMIOC-1M Open-set
 
-./tools/dist_train.sh configs/pretrain/Closed.py --device cuda:0 --amp
+./tools/dist_train.sh configs/pretrain/RTVPNet_S_MMIOC_Open_8xA100gpus_200e_pretrain.py --device cuda:0,1,2,3,4,5,6,7 --amp
 
-## single-GPU Run train on MMIOC-1M
+## Run Pre-train on MMIOC-1M Closed-set
 
-./tools/dist_train.sh configs/pretrain/Closed.py --device cuda:0,1,2 --amp
+./tools/dist_train.sh configs/pretrain/RTVPNet_S_MMIOC_Closed_8xA100gpus_200e_pretrain.py --device cuda:0,1,2,3,4,5,6,7 --amp
 
 ## Run val
 
-bash dist_test.sh --device cuda:0,1,2
+bash configs/pretrain/RTVPNet_S_MMIOC_Open_8xA100gpus_200e_pretrain.py --device cuda:0,1,2
