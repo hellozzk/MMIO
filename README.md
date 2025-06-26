@@ -65,4 +65,4 @@ Command: pip install -r requirements.txt
 
 ## Run val
 
-bash configs/pretrain/RTVPNet_S_MMIOC_Open_8xA100gpus_200e_pretrain.py --device cuda:0,1,2
+./tools/dist_test.sh configs/pretrain/RTVPNet_S_MMIOC_Open_8xA100gpus_200e_pretrain.py --device cuda:0,1,2
