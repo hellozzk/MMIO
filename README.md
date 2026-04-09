@@ -6,6 +6,7 @@ Large-scale Visual-Language models (LVLMs) have achieved remarkable success in v
 ## In order to facilitate the verification of RTVPNet accuracy, the verification set of MMIOC-1M is as follows:
 ## MMIOC-Closed dataset link: https://pan.baidu.com/s/1hW7wk6D8yJHxRxPgKcfzpg?pwd=88f5
 ## MMIOC-Open dataset link: https://pan.baidu.com/s/1CfBehOiRNVD6I8GkAje2JQ?pwd=01j5
+## RTVPNet weights link: https://pan.baidu.com/s/1t5JOE5-T5OPUWqwauZX0TQ?pwd=dn62 
 To the best of our knowledge, this paper constructs the first multi-modal object detection dataset (MMIOC-1M) for industrial open and closed scenes. MMIOC-1M is extended based on MMIO-80K and contains more than 1M samples and 31 industrial scenes, effectively alleviating the lack of domain expertise in industrial open scenes. The comparison with mainstream defect data is as follows:
 ![MMIOC-1M_dataset_compare](https://github.com/hellozzk/MMIO/blob/main/datasetcompare_01.jpg#pic_center)
 The dataset is visualized as follows:
