@@ -48,7 +48,7 @@ Name_of_Dataset
 The code has been open-sourced, and users can choose between the basic version and the more powerful version RTVPNet.
 
 ## Requirements
-GPU: 8xNVIDIA A100-SXM4-40GB   CPU: Intel(R) Xeon(R) Platinum 8473C      Running Memory: 256GB+      PyTorch 2.1.0      Python 3.9
+GPU: 8xNVIDIA A100-SXM4-40GB   CPU: Intel(R) Xeon(R) Platinum 8473C      Running Memory: 512GB+      PyTorch 2.1.0      Python 3.9
 
 Command: pip install -r requirements.txt
 
