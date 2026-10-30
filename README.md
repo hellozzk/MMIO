@@ -7,7 +7,7 @@
 
 **IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2026**
 
-[Published paper](https://doi.org/10.1109/TPAMI.2026.3680569) &nbsp;|&nbsp; [arXiv](https://arxiv.org/abs/2606.07953) &nbsp;|&nbsp; <a href="https://huggingface.co/datasets/ZZk12138/MMIOC-1M-Curated-334"><img src="assets/brand/huggingface.svg" width="18" height="17" alt="Hugging Face"> Curated dataset</a> &nbsp;|&nbsp; [Code](#code-and-checkpoints) &nbsp;|&nbsp; [Visual examples](#visual-examples) &nbsp;|&nbsp; [Results](#results)
+[Paper](https://ieeexplore.ieee.org/document/11474495/) &nbsp;|&nbsp; <a href="https://huggingface.co/datasets/ZZk12138/MMIOC-1M-Curated-334"><img src="assets/brand/huggingface.svg" width="18" height="17" alt="Hugging Face"> Curated dataset</a> &nbsp;|&nbsp; [Code](#code-and-checkpoints) &nbsp;|&nbsp; [Visual examples](#visual-examples) &nbsp;|&nbsp; [Results](#results)
 
 </div>
 
@@ -15,7 +15,7 @@
 
 ## Overview
 
-Industrial detection must handle defects across different products and manufacturing scenes while recognizing categories that may be absent from training. The [TPAMI paper](https://doi.org/10.1109/TPAMI.2026.3680569) introduces **MMIOC-1M** for both closed-set and open-vocabulary industrial detection, together with **RTVPNet**, a model that adapts visual features to industrial domains and refines visual prompts through interaction with text.
+Industrial detection must handle defects across different products and manufacturing scenes while recognizing categories that may be absent from training. The [TPAMI paper](https://ieeexplore.ieee.org/document/11474495/) introduces **MMIOC-1M** for both closed-set and open-vocabulary industrial detection, together with **RTVPNet**, a model that adapts visual features to industrial domains and refines visual prompts through interaction with text.
 
 <p align="center"><a href="datasetcompare_01.jpg"><img src="datasetcompare_01.jpg" alt="MMIOC-1M compared with earlier industrial datasets by sample count and class coverage" width="92%"></a></p>
 <p align="center"><sub>MMIOC-1M spans more samples and defect categories than the earlier datasets shown here. Open the figure to inspect the original resolution.</sub></p>
@@ -55,7 +55,7 @@ The paper reports the following **RTVPNet** results on its original MMIOC-1M pro
 | RTVPNet-S | 14.9 | 26.7 | 36.7 | 60.7 |
 | **RTVPNet-L** | **17.4** | **30.7** | **41.3** | **64.9** |
 
-*Source: [paper Tables III and V](https://arxiv.org/html/2606.07953v1). The open and closed columns use their respective evaluation splits.*
+*Source: [paper Tables III and V](https://ieeexplore.ieee.org/document/11474495/). The open and closed columns use their respective evaluation splits.*
 
 ## Curated Hugging Face dataset
 
