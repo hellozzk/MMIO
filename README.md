@@ -11,6 +11,11 @@
 
 </div>
 
+> **重要使用声明：使用本数据集发表论文或用于商业用途前，须联系 [2673679261@qq.com](mailto:2673679261@qq.com) 并签署相关开源声明。**
+>
+> **IMPORTANT USAGE NOTICE: Before using this dataset in a research publication or for commercial purposes, you must contact [2673679261@qq.com](mailto:2673679261@qq.com) and sign the relevant open-source declaration.**
+
+
 > **Release status:** The Hugging Face link is for the **curated 334-class train/validation subset**, whose upload is in progress. It is distinct from the paper's original 1M+ sample benchmark. The repository already contains the RTVPNet code archive and paper figures. The curated dataset link becomes public after upload verification.
 
 ## Overview
